@@ -99,7 +99,8 @@ Install this project with:
 
 ```sh
   cd learderboard
-  yarn install 
+  yarn install
+  yarn dev 
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
