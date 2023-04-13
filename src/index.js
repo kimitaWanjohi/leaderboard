@@ -11,6 +11,7 @@ const getGameID = async () => {
 
     if (match) {
     const id = match[1];
+    localStorage.setItem('gameID', id);
     return id;
     }
 }
