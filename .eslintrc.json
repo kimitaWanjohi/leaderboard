@@ -19,7 +19,8 @@
       }],
       "max-classes-per-file": ["error", 2],
       "import/no-unresolved": "off",
-      "class-methods-use-this": "off"
+      "class-methods-use-this": "off",
+      "prefer-destructuring": "off"
     },
     "ignorePatterns": [
       "coverage/",
