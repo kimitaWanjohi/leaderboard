@@ -1,68 +1,67 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Leaderboard App</title>
-  </head>
-  <body>
-    <main class="container mx-auto flex justify-center flex-col min-h-screen">
-      <h1 class="text-4xl text-start font-bold">Leaderboard</h1>
-      <div class="flex items-center mt-10 justify-start gap-10">
-        <div class="w-full">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaderboard</title>
+</head>
+<body>
+  <main class="container mx-auto flex justify-center flex-col min-h-screen">
+    <h1 class="text-4xl text-start font-bold">Leaderboard</h1>
+    <div class="flex items-center mt-10 justify-start gap-10">
+      <div class="w-full">
+        <div class="flex items-center justify-between">
+          <h3 class="text-2xl text-start font-bold">Recent scores</h3>
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Refresh scores 
+          </button>
+        </div>
+        <table class="table-auto mt-4 w-full">
+          <thead>
+            <tr>
+              <th class="px-4 py-2">Name</th>
+              <th class="px-4 py-2">Score</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border px-4 py-2">John Doe</td>
+              <td class="border px-4 py-2">100</td>
+            </tr>
+            <tr class="bg-gray-100">
+              <td class="border px-4 py-2">Jane Doe</td>
+              <td class="border px-4 py-2">90</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="w-full mt-4">
+        <form>
           <div class="flex items-center justify-between">
-            <h3 class="text-2xl text-start font-bold">Recent scores</h3>
+            <h3 class="text-2xl my-2 text-start font-bold">Add your score</h3>
+          </div>
+          <div class="flex items-center flex-col gap-4 justify-between">
+            <input
+              class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-blue-500 focus:shadow-outline"
+              id="name"
+              type="text"
+              placeholder="Your name"
+            />
+            <input
+              class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-blue-500 focus:shadow-outline"
+              id="score"
+              type="text"
+              placeholder="Your score"
+            />
             <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-              Refresh scores 
+              Submit
             </button>
           </div>
-          <table class="table-auto mt-4 w-full">
-            <thead>
-              <tr>
-                <th class="px-4 py-2">Name</th>
-                <th class="px-4 py-2">Score</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="border px-4 py-2">John Doe</td>
-                <td class="border px-4 py-2">100</td>
-              </tr>
-              <tr class="bg-gray-100">
-                <td class="border px-4 py-2">Jane Doe</td>
-                <td class="border px-4 py-2">90</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="w-full mt-4">
-          <form>
-            <div class="flex items-center justify-between">
-              <h3 class="text-2xl my-2 text-start font-bold">Add your score</h3>
-            </div>
-            <div class="flex items-center flex-col gap-4 justify-between">
-              <input
-                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-blue-500 focus:shadow-outline"
-                id="name"
-                type="text"
-                placeholder="Your name"
-              />
-              <input
-                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-blue-500 focus:shadow-outline"
-                id="score"
-                type="text"
-                placeholder="Your score"
-              />
-              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                Submit
-              </button>
-            </div>
-          </form>
-        </div>
+        </form>
       </div>
-    </main>
-    <script src="bundle.js"></script>
-  </body>
+    </div>
+  </main>
+  <script src="bundle.js"></script>
+</body>
 </html>
-
