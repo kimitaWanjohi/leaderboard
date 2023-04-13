@@ -11,7 +11,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 awesome books](#-awesome-books)
+- [📖 Leaderboard](#-leaderboard)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -29,7 +29,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 awesome books<a name="about-project"></a>
+# 📖 Leaderboard<a name="about-project"></a>
 
 * Leaderboard is a project that displays scores *
 
@@ -54,9 +54,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Crud functionality**
-- **Local Storage**
--  **Responsive**
+- ** Markup **
+- ** Api Fetch **
+-  ** styling **
 <!-- - **[key_feature_3]** -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -100,6 +100,7 @@ Install this project with:
 ```sh
   cd learderboard
   yarn install 
+  yarn start
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -126,7 +127,9 @@ Install this project with:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[ fetch scores from the leaderboard APE ]**
+- [ ] **[ fetch scores from the leaderboard API ]**
+- [ ] **[ display scores ]**
+- [ ] **[ post scores ]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
