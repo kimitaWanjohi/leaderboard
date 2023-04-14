@@ -11,7 +11,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 awesome books](#-awesome-books)
+- [📖 Leaderboard](#-leaderboard)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -29,7 +29,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 awesome books<a name="about-project"></a>
+# 📖 Leaderboard<a name="about-project"></a>
 
 * Leaderboard is a project that displays scores *
 
@@ -54,9 +54,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Crud functionality**
-- **Local Storage**
--  **Responsive**
+- **Markup**
+- **Api Fetch**
+- **Styling**
 <!-- - **[key_feature_3]** -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -99,8 +99,8 @@ Install this project with:
 
 ```sh
   cd learderboard
-  yarn install
-  yarn dev 
+  yarn install 
+  yarn start
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -111,7 +111,6 @@ Install this project with:
 
 - [kimita](https://github.com/kimitaWanjohi)
 
-> Mention all of the collaborators of this project.
 
 👤 **kimita**
 
@@ -125,9 +124,10 @@ Install this project with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
-- [ ] **[ fetch scores from the leaderboard APE ]**
+- [ ] **[ fetch scores from the leaderboard API ]**
+- [ ] **[ display scores ]**
+- [ ] **[ post scores ]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -143,7 +143,7 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 
-> Write a message to encourage readers to support your project
+
 
 If you like this project feel free to leave comments and contact via given authors information above.
 
